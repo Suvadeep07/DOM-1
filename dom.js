@@ -1,11 +1,9 @@
-
-var headerTitle = document.getElementById('header-title');
-var header = document.getElementById('main-header');
-
-
-header.style.borderBottom="solid 3px #000"
-var main = document.getElementById("main");
-  var addItemTitle = main.getElementsByClassName("title")[0];
-
-  addItemTitle.style.fontWeight = "bold";
-  addItemTitle.style.color = "green";
+var items =document.getElementsByClassName('list-group-item');
+console.log(items);
+//items[2].textContent='Hello2';
+//items[1].style.fontWeight = 'bold';
+items[2].style.backgroundColor ='green';
+for(var i=0;i<items.length;i++){
+  items[i].style.fontWeight='bold'
+}
+//heloo111
